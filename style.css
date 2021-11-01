@@ -1,0 +1,13 @@
+.login,
+.username2,
+.inputUsername,
+.username,
+.password,
+.inputPassword,
+.lost,
+.action{
+    text-align: center;
+}
+.username2{
+    color: rgb(155, 11, 11);
+}
