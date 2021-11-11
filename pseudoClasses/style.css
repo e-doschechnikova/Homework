@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0%;
+  border: 0;
+}
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  padding: 30px;
+}
+.block {
+  margin: 0 0 20px 0;
+}
+.block:hover {
+  background: rgb(166, 193, 194);
+}
+.block p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 20px 0;
+}
+.block p:nth-child(1){
+  background: rgb(124, 200, 202);
+}
+.block p:nth-child(2){
+  background: rgb(86, 143, 146);
+}
+.block p:nth-child(3){
+  background-color: rgb(61, 99, 102);
+}
+.block p:nth-child(3):hover{
+  background-color: rgb(255, 239, 8);
+}
+.link {
+  color: rgb(26, 188, 209);
+}
+.link:visited {
+  color: crimson;
+}
+.link:hover {
+  text-decoration: underline;
+  color: rgb(253, 249, 0);
+}
+.link:active {
+  color: blueviolet;
+}
+
+.textimput {
+  border: 1px solid #000;
+  height: 50px;
+  padding: 0 15px;
+  font-size: 18px;
+  width: 300px;
+  margin: 0 0 10px 0;
+}
+.textimput:focus {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.textbutton {
+  display: block;
+  width: 300px;
+  height: 50px;
+  background-color: cadetblue;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+}
+.textbutton:hover{
+  color: rgb(255, 255, 255);
+  background-color: crimson;
+}
+.list {
+}
+.list li {
+  font-style: 18px;
+  margin: 0 0 15px 0;
+}
+.list li:first-child {
+  font-size: 18px;
+  color: rgb(26, 188, 209);
+ font-style: italic;
+}
+.list li:last-child {
+  font-size: 18px;
+  color: rgb(92, 92, 92);
+}
+.list li:nth-child(2) {
+  font-size: 18px;
+  color: rgb(48, 29, 29);
+}
+.list li:nth-child(3) {
+  font-size: 18px;
+  color: rgb(18, 8, 105);
+}
+.list li:nth-child(4) {
+  font-size: 18px;
+  color: rgb(85, 0, 0);
+}
+.list li:nth-child(5) {
+  font-size: 18px;
+  color: rgb(180, 93, 93);
+}
+.list li:nth-child(6) {
+  font-size: 18px;
+  color: rgb(180, 93, 93);
+}
