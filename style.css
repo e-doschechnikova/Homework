@@ -1,13 +1,123 @@
-.login,
-.username2,
-.inputUsername,
-.username,
-.password,
-.inputPassword,
-.lost,
-.action{
-    text-align: center;
+body {
+  background: #c49162;
+  background: -moz-linear-gradient(
+    -45deg,
+    #c49162 15%,
+    #000000 37%,
+    #cc0000 54%,
+    #c98b50 76%,
+    #c98b50 80%,
+    #c98b50 80%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #c49162 15%,
+    #000000 37%,
+    #cc0000 54%,
+    #c98b50 76%,
+    #c98b50 80%,
+    #c98b50 80%
+  );
+  background: linear-gradient(
+    135deg,
+    #c49162 15%,
+    #000000 37%,
+    #cc0000 54%,
+    #c98b50 76%,
+    #c98b50 80%,
+    #c98b50 80%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c49162', endColorstr='#c98b50',GradientType=1 );
+  overflow: hidden;
 }
-.username2{
-    color: rgb(155, 11, 11);
+.container {
+  border: 1px solid;
+  width: 350px;
+  text-align: center;
+  margin: 200px auto;
+}
+.containerHeader {
+  text-align: center;
+}
+.header {
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+}
+.header:active {
+  color: #000000;
+}
+.header-blank {
+  color: rgb(189, 143, 100);
+}
+.header-blank:active {
+  color: rgb(165, 29, 29);
+}
+.name {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.name-input {
+  background-color: rgb(189, 143, 100);
+  padding: 5px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 20px 0;
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  border: none;
+}
+.name-input:focus {
+  box-shadow: 0 0 15px 0 #ffffff;
+}
+.pass {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.pass-input {
+  background-color: rgb(189, 143, 100);
+  padding: 5px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 20px 0;
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  border: none;
+}
+.pass-input:focus {
+  box-shadow: 0 0 15px 0 #ffffff;
+}
+.lostpass {
+}
+.login {
+  background-color: rgb(189, 143, 100);
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 20px 0;
+  box-shadow: 1px 1px 1px 1px rgb(165, 29, 29);
+  border: none;
+}
+.loginwith {
+  background-color: rgb(189, 143, 100);
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 20px 0;
+  box-shadow: 1px 1px 1px 1px rgb(165, 29, 29);
+  border: none;
 }
