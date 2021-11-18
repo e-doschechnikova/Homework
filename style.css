@@ -1,65 +1,73 @@
 body {
-  background: #c49162;
+  background: #febbbb;
   background: -moz-linear-gradient(
     -45deg,
-    #c49162 15%,
-    #000000 37%,
-    #cc0000 54%,
-    #c98b50 76%,
-    #c98b50 80%,
-    #c98b50 80%
+    #febbbb 0%,
+    #fe9090 45%,
+    #ff5c5c 100%
   );
   background: -webkit-linear-gradient(
     -45deg,
-    #c49162 15%,
-    #000000 37%,
-    #cc0000 54%,
-    #c98b50 76%,
-    #c98b50 80%,
-    #c98b50 80%
+    #febbbb 0%,
+    #fe9090 45%,
+    #ff5c5c 100%
   );
-  background: linear-gradient(
-    135deg,
-    #c49162 15%,
-    #000000 37%,
-    #cc0000 54%,
-    #c98b50 76%,
-    #c98b50 80%,
-    #c98b50 80%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c49162', endColorstr='#c98b50',GradientType=1 );
+  background: linear-gradient(135deg, #febbbb 0%, #fe9090 45%, #ff5c5c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=1 );
+
   overflow: hidden;
 }
+
 .container {
   border: 1px solid;
   width: 350px;
   text-align: center;
   margin: 200px auto;
 }
+
 .containerHeader {
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #fcecfc;
+  background: #fcecfc;
+  background: -moz-linear-gradient(-45deg,  #fcecfc 0%, #fba6e1 36%, #9be1e8 100%, #ff7cd8 100%, #9be1e8 101%);
+  background: -webkit-linear-gradient(-45deg,  #fcecfc 0%,#fba6e1 36%,#9be1e8 100%,#ff7cd8 100%,#9be1e8 101%);
+  background: linear-gradient(135deg,  #fcecfc 0%,#fba6e1 36%,#9be1e8 100%,#ff7cd8 100%,#9be1e8 101%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#9be1e8',GradientType=1 );
+  
 }
+
 .header {
   font-weight: 500;
   font-size: 25px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
+
 .header:active {
-  color: #000000;
+  color: #bb0b4e;
 }
+
 .header-blank {
-  color: rgb(189, 143, 100);
+  color: rgb(0, 0, 0);
 }
+
 .header-blank:active {
-  color: rgb(165, 29, 29);
+  color: #bb0b4e
 }
+
+.header-blank:visited {
+  color: rgb(194, 77, 77);
+}
+
 .name {
   text-align: center;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
+
 .name-input {
-  background-color: rgb(189, 143, 100);
+  background-color: rgb(240, 145, 232);
   padding: 5px 10px;
   text-align: center;
   letter-spacing: 1px;
@@ -68,19 +76,22 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin: 0 0 20px 0;
-  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  box-shadow: 1px 1px 1px 1px rgb(196, 28, 64);
   border: none;
 }
+
 .name-input:focus {
   box-shadow: 0 0 15px 0 #ffffff;
 }
+
 .pass {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
+
 .pass-input {
-  background-color: rgb(189, 143, 100);
+  background-color: rgb(240, 145, 232);
   padding: 5px 10px;
   text-align: center;
   letter-spacing: 1px;
@@ -89,16 +100,44 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin: 0 0 20px 0;
-  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  box-shadow: 1px 1px 1px 1px rgb(196, 28, 64);
   border: none;
 }
+
 .pass-input:focus {
   box-shadow: 0 0 15px 0 #ffffff;
 }
+
 .lostpass {
+  color: #fff;
 }
+
+.lostpass:hover {
+  color: #000000;
+}
+
+.lostpass:active {
+  color: #bb0b4e;
+}
+
+.lostpass:visited {
+  color: rgb(194, 77, 77);
+}
+
 .login {
-  background-color: rgb(189, 143, 100);
+  background-color: rgb(240, 145, 232);
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  box-shadow: 1px 1px 1px 1px rgb(165, 29, 29);
+  border: none;
+}
+
+.loginwith {
+  background-color: rgb(240, 145, 232);
   padding: 5px 10px;
   letter-spacing: 1px;
   border-radius: 15px;
@@ -109,15 +148,7 @@ body {
   box-shadow: 1px 1px 1px 1px rgb(165, 29, 29);
   border: none;
 }
-.loginwith {
-  background-color: rgb(189, 143, 100);
-  padding: 5px 10px;
-  letter-spacing: 1px;
-  border-radius: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #000000;
-  margin: 0 0 20px 0;
-  box-shadow: 1px 1px 1px 1px rgb(165, 29, 29);
-  border: none;
+
+.loginwith:visited {
+  color: rgb(194, 77, 77);
 }
